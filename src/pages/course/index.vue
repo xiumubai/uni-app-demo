@@ -1,5 +1,5 @@
 <template>
-  <view class="content"> 首页 </view>
+  <view class="content"> 课程页 </view>
 </template>
 
 <script>
