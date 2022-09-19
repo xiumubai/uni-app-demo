@@ -11,6 +11,24 @@ class User extends Service {
     options.url = `/api/ucenter/webChat/callback?code=${options.code}`;
     return this.get(options);
   }
+  /**
+   * @description: 获取用户信息
+   * @param {*} options
+   * @return {*}
+   */
+  getLoginInfo(options = {}) {
+    options.url = `/api/ucenter/member/auth/getLoginInfo`;
+    return this.get(options);
+  }
+  /**
+   * @description: 更新用户信息
+   * @param {*} options
+   * @return {*}
+   */
+  updateMember(options = {}) {
+    options.url = `/api/ucenter/member/auth/updateMember`;
+    return this.post(options);
+  }
 }
 
 const userService = new User();

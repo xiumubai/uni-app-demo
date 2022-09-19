@@ -17,6 +17,12 @@
 			"style": {
 				"navigationBarTitleText": "谷粒微课"
 			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
 		}
 	],
 	"tabBar": {
@@ -51,9 +57,9 @@
 		}
 	},
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "谷粒微课",
+		"navigationBarBackgroundColor": "#17181a",
+		"backgroundColor": "#000"
 	}
 }
