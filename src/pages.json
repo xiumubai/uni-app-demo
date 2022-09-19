@@ -13,7 +13,7 @@
 			}
 		},
 		{
-			"path": "pages/my/index",
+			"path": "pages/user/index",
 			"style": {
 				"navigationBarTitleText": "谷粒微课"
 			}
@@ -37,7 +37,7 @@
 				"text": "课程"
 			},
 			{
-				"pagePath": "pages/my/index",
+				"pagePath": "pages/user/index",
 				"iconPath": "static/images/nav/my-off.png",
 				"selectedIconPath": "static/images/nav/my-on.png",
 				"text": "我的"
